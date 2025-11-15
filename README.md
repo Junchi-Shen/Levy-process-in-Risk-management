@@ -25,3 +25,5 @@ train_dataset[0]
  其中 tuple的第一个是具体的训练数据 但是我没想好如何处理数据的
 
 可能的可以尝试一下把第二个部分改为一个长252的序列？不过我不确定效果如何？
+
+大部分的数据逻辑情况是 我们先从get_dataset获取数据，然后再把他变成一个DataLoader 最后传入到TrainingManager
