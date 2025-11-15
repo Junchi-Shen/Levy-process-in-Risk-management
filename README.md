@@ -29,3 +29,5 @@ train_dataset[0]
 ## Nov 15 2025
 
 大部分的数据逻辑情况是 我们先从get_dataset获取数据，然后再把他变成一个DataLoader 最后传入到TrainingManager
+
+下一步要做的是 搞清楚 进入TrainingManager后的影响 以及发生什么？
