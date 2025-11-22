@@ -6,6 +6,7 @@ animation/*
 **neptune
 data/*
 !data/toy
+!data/finance_data/
 **.ipynb_checkpoints
 **.ipynb
 dlpm/private_code.py
